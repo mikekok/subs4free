@@ -1,0 +1,28 @@
+{
+  "name": "subs4free",
+  "version": "0.0.1",
+  "description": "A Subs4Free API for searching for movies' subtitles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikekok/subs4free.git"
+  },
+  "keywords": [
+    "subs4free",
+    "greek",
+    "subs",
+    "subtitles",
+    "greek subs",
+    "subs api"
+  ],
+  "author": "Mike Kokkolios <mikekokkolios@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "iconv-lite": "^0.4.19",
+    "request": "^2.83.0"
+  }
+}
