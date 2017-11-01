@@ -5,10 +5,12 @@ Search for Greek & English movies' subtitles
 * `npm install subs4free`
 
 ## Usage
+
+Get subtitles and movies list by search query
+
 ```javascript
 const subs4free = require('subs4free')
 
-// Get subs and movies list by search query
 subs4free.getSubs('cars', function(err, results) {
   console.log(results)
 })
@@ -36,8 +38,13 @@ subs4free.getSubs('cars', function(err, results) {
      ]
 }
 */
+```
 
-// Get subs list by movie id
+Get subtitles list list by movie id
+
+```javascript
+const subs4free = require('subs4free')
+
 subs4free.getSubsById('mca769ae54a', function(err, results) {
   console.log(results)
 })
