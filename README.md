@@ -1,6 +1,8 @@
 # subs4free
 Search for Greek & English movies' subtitles
 
+[![NPM](https://nodei.co/npm/subs4free.png)](https://www.npmjs.com/package/subs4free)
+
 ## Installation
 * `npm install subs4free`
 
